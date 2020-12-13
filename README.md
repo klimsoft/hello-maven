@@ -1,1 +1,1 @@
-# hello-maven
+# hello-maven - first version
