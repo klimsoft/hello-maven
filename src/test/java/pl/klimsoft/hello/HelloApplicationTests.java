@@ -8,7 +8,7 @@ class HelloApplicationTests {
 	@Test
 	void sampleTest() {
 		int result = 2 + 2;
-		Assertions.assertEquals(4, 4);
+		Assertions.assertEquals(4, result);
 	}
 
 }
