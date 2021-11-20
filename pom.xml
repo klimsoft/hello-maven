@@ -57,6 +57,16 @@
 					</execution>
 				</executions>
 			</plugin>
+			<!-- possibility to run with goal exec:java-->
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>3.0.0</version>
+				<configuration>
+					<mainClass>pl.klimsoft.hello.HelloApplication</mainClass>
+				</configuration>
+			</plugin>
+
 		</plugins>
 	</build>
 </project>
